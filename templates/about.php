@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <!-- Basic -->
@@ -37,67 +41,32 @@
 
 <body>
 
-    <!-- Start Main Top -->
-    <div class="main-top">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="text-slid-box">
-                        <div id="offer-box" class="carouselTicker">
-                            <ul class="offer-box">
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Now
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on all Personalized items
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop 
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Now Man
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on all Personalized items
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+   <!-- Start Main Top -->
+   <div class="main-top">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="text-slid-box">
+                    
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="custom-select-box">
-                        <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
-						<option>Rs. Rupee</option>
-						<option>$ USD</option>
-						<option>€ EUR</option>
-					</select>
-                    </div>
-                    <div class="right-phone-box">
-                        <p>Call US :- <a href="#"> +91 7042715235</a></p>
-                    </div>
-                    <div class="our-link">
-                        <ul>
-                            <li><a href="#">My Account</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+    
+                </div>
+                <div class="right-phone-box">
+                    
+                </div>
+                <div class="our-link">
+                    <ul>
+                        
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End Main Top -->
-
-    <!-- Start Main Top -->
-    <header class="main-header">
+</div>
+ <!-- Start Main Top -->
+ <header class="main-header">
         <!-- Start Navigation -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
             <div class="container">
@@ -113,56 +82,54 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                         <li class="dropdown megamenu-fw">
                             <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Product</a>
                             <ul class="dropdown-menu megamenu-content" role="menu">
                                 <li>
                                     <div class="row">
                                         <div class="col-menu col-md-3">
-                                            <h6 class="title">Top</h6>
+                                            <h6 class="title">Flowers & Bouquets</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
-                                                    <li><a href="shop.html">Jackets</a></li>
-                                                    <li><a href="shop.html">Shirts</a></li>
-                                                    <li><a href="shop.html">Sweaters & Cardigans</a></li>
-                                                    <li><a href="shop.html">T-shirts</a></li>
+                                                    <li><a href="shop.php">Roses</a></li>
+                                                    <li><a href="shop.php">Lilies</a></li>
+                                                    <li><a href="shop.php">Mixed</a></li>
+                                                    <li><a href="shop.php">Scented Pots</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <!-- end col-3 -->
                                         <div class="col-menu col-md-3">
-                                            <h6 class="title">Bottom</h6>
+                                            <h6 class="title">Show Pieces</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
-                                                    <li><a href="shop.html">Swimwear</a></li>
-                                                    <li><a href="shop.html">Skirts</a></li>
-                                                    <li><a href="shop.html">Jeans</a></li>
-                                                    <li><a href="shop.html">Trousers</a></li>
+                                                    <li><a href="shop.php">Love</a></li>
+                                                    <li><a href="shop.php">Birthday</a></li>
+                                                    <li><a href="shop.php">Success</a></li>
+                                                    <li><a href="shop.php">Family</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <!-- end col-3 -->
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Clothing</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="shop.html">Top Wear</a></li>
-                                                    <li><a href="shop.html">Party wear</a></li>
-                                                    <li><a href="shop.html">Bottom Wear</a></li>
-                                                    <li><a href="shop.html">Indian Wear</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
                                         <div class="col-menu col-md-3">
                                             <h6 class="title">Accessories</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
-                                                    <li><a href="shop.html">Bags</a></li>
-                                                    <li><a href="shop.html">Sunglasses</a></li>
-                                                    <li><a href="shop.html">Fragrances</a></li>
-                                                    <li><a href="shop.html">Wallets</a></li>
+                                                    <li><a href="shop.php">Clothing</a></li>
+                                                    <li><a href="shop.php">Bags</a></li>
+                                                    <li><a href="shop.php">Watches</a></li>
+                                                    <li><a href="shop.php">Fragrances</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-menu col-md-3">
+                                            <h6 class="title">Personalized</h6>
+                                            <div class="content">
+                                                <ul class="menu-col">
+                                                    <li><a href="shop.php">Cushions</a></li>
+                                                    <li><a href="shop.php">Mugs and Cups</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -172,18 +139,26 @@
                                 </li>
                             </ul>
                         </li>
+                        <?php
+                            if(isset($_SESSION["id"])) {
+                        ?>
                         <li class="dropdown">
-                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
+                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Hi, <?php echo $_SESSION["name"]; ?></a>
                             <ul class="dropdown-menu">
-                                <li><a href="cart.html">Cart</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                                <li><a href="my-account.html">My Account</a></li>
-                                <li><a href="wishlist.html">Wishlist</a></li>
-                                <li><a href="shop-detail.html">Shop Detail</a></li>
+                                <li><a href="my-account.php">My Account</a></li>
+                                <li><a href="cart.php">Cart</a></li>
+                                <li><a href="checkout.php">Checkout</a></li>
+                                <li><a href="wishlist.php">Wishlist</a></li>
+                                <li><a href="logout.php">Logout</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item active"><a class="nav-link" href="service.html">Our Service</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                        <?php
+                            }else { ?> <li class="nav-item"><a class="nav-link" href="../static/php/index.php">Login</a></li>;
+                        <?php  
+                            }  
+                        ?>
+                        <li class="nav-item"><a class="nav-link" href="service.php">Our Service</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact-us.php">Contact Us</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -250,10 +225,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>Services</h2>
+                    <h2>ABOUT US</h2>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">Services</li>
+                        <li class="breadcrumb-item active">ABOUT US</li>
                     </ul>
                 </div>
             </div>
@@ -261,54 +236,47 @@
     </div>
     <!-- End All Title Box -->
 
-    <!-- Start Services  -->
-    <div class="services-box-main">
+    <!-- Start About Page  -->
+    <div class="about-box-main">
         <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="noo-sh-title">We are <span>Prezzie</span></h2>
+                    <p> You are engulfed in relationships the moment you step into this planet. The earliest and most intimate relationship you have is with your mother, who is the ideal of unselfish, patient, and loving love. 
+                        Then there is your father, who has always been and will always be an idol to us. It's as though he anticipates your every want before it ever enters your head.
+                         Siblings have the sweetest relationship. They have always been and will continue to be your first and best friend. You have countless childhood memories associated with them.
+                         This is the beauty of relations. You can have a walk down the memory lane countless times and each time you will return wrapped in love, affection and a sweet smile (sometimes there are giggles as well!). </p>
+                         <p>Why not share the love which is so close to your heart to your near and dear ones?Are you pondering how to go about doing so? At Prezzie, you may enjoy the joys of online presents, such as birthday gifts,
+                          anniversary gifts, and gift baskets. You will be able to discover a present for any relationship, regardless of the occasion, because we care for our costumers as much as their loved ones.</p>
+                </div>
+                <div class="col-lg-6">
+                    <div class="banner-frame"> <img class="img-thumbnail img-fluid" src="../static/images/about-img.jpg" alt="" />
+                    </div>
+                </div>
+            </div>
             <div class="row my-5">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="service-block-inner">
-                        <h3>OUR MISSION</h3>
-                        <p>
-                            Wow every customer every time, through premium 
-                            products, services, value-for-money driven by innovation, technology & people-first
-                             approach </p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="service-block-inner">
-                        <h3>OUR VISION</h3>
-                        <p> To be the most trusted gifting brand to celebrate the joy of giving</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="service-block-inner">
-                        <h3>OUR PHILOSOPHY</h3>
-                        <p> We believe in caressing your relationship by helping you express your love and gratitude to your near and dear ones. </p>
-                    </div>
-                </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="service-block-inner">
                         <h3>We are Trusted</h3>
                         <p>We have been meeting requirements of our customers, since 25 years, by giving
-                            special attention to their needs and providing personalized gift items...  </p>
+                             special attention to their needs and providing personalized gift items... </p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="service-block-inner">
                         <h3>We are Professional</h3>
-                        <p>Our mission is to provide gift giving as convenient as possible, and our approach lies in proceeding
-                            with full dedication and perfection, no matter how difficult the deadline is!</p>
+                        <p> Our mission is to provide gift giving as convenient as possible, and our approach lies in proceeding
+                             with full dedication and perfection, no matter how difficult the deadline is!</p>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-4">
                     <div class="service-block-inner">
-                        <h3>OUR STORIES</h3>
-                        <p>Our customer reviews show that we have been the most trusted when it comes
-                            to buying personalized items of great quality and at affordable price!  </p>
+                        <h3>We are Expert</h3>
+                        <p>We deliver gifts around the corner or from around the world!
+                             So come & browse our site & order that perfect gift today! </p>
                     </div>
                 </div>
             </div>
-
             <div class="row my-4">
                 <div class="col-12">
                     <h2 class="noo-sh-title">Meet Our Team</h2>
@@ -377,10 +345,9 @@
             </div>
         </div>
     </div>
-    <!-- End Services -->
+    <!-- End About Page -->
 
     <!-- Start Instagram Feed  -->
-    
     <div class="instagram-box">
         <div class="main-instagram owl-carousel owl-theme">
             <div class="item">
@@ -465,17 +432,18 @@
             </div>
         </div>
     </div>
+
     <!-- End Instagram Feed  -->
 
 
-    <!-- Start Footer  -->
-    <footer>
+   <!-- Start Footer  -->
+   <footer>
         <div class="footer-main">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 col-md-12 col-sm-12">
                         <div class="footer-widget">
-                            <h4>About Prizzie</h4>
+                            <h4>About Prezzie</h4>
                             <p>For over 25 years, we are helping customers to celebrate their special moments by delivering fresh flowers and fabulous gifts.<br>Our Vision : To be the most trusted gifting brand to celebrate the joy of giving
                                 <br> Our mission : Wow every customer every time, through premium products, services, value-for-money driven by innovation, technology & people-first approach
                                 </p>
@@ -491,11 +459,9 @@
                         <div class="footer-link">
                             <h4>Information</h4>
                             <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Customer Service</a></li>
-                                <li><a href="#">Terms &amp; Conditions</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Delivery Information</a></li>
+                                <li><a href="about.php">About Us</a></li>
+                                <li><a href="service.php">Customer Service</a></li>
+                                <li><a href="contact-us.php">Connect With Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -517,13 +483,6 @@
         </div>
     </footer>
     <!-- End Footer  -->
-
-    <!-- Start copyright  -->
-    <div class="footer-copyright">
-        <p class="footer-company">All Rights Reserved. &copy; 2021 <a href="#">Prezzie</a> Design By :
-            <a href="https://html.design/">html design</a></p>
-    </div>
-    <!-- End copyright  -->
 
     <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
 

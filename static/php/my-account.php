@@ -45,50 +45,21 @@
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="text-slid-box">
                         <div id="offer-box" class="carouselTicker">
-                            <ul class="offer-box">
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Now
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on all Personalized items
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Now
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on all Personalized items
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
-                                </li>
-                            </ul>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="custom-select-box">
-                        <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
-						<option>Rs. Rupee</option>
-						<option>$ USD</option>
-						<option>€ EUR</option>
+                        
 					</select>
                     </div>
                     <div class="right-phone-box">
-                        <p>Call US :- <a href="#"> +91 7042715235</a></p>
+                        
                     </div>
                     <div class="our-link">
                         <ul>
-                            <li><a href="#">My Account</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -107,63 +78,61 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                    <a class="navbar-brand" href="../../templates/index.html"><img src="../images/logo.png" class="logo" alt=""></a>
+                    <a class="navbar-brand" href="index.html"><img src="../static/images/logo.png" class="logo" alt=""></a>
                 </div>
                 <!-- End Header Navigation -->
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="nav-item"><a class="nav-link" href="../../templates/index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../../templates/about.html">About Us</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="home.php">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
                         <li class="dropdown megamenu-fw">
                             <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Product</a>
                             <ul class="dropdown-menu megamenu-content" role="menu">
                                 <li>
                                     <div class="row">
                                         <div class="col-menu col-md-3">
-                                            <h6 class="title">Top</h6>
+                                            <h6 class="title">Flowers & Bouquets</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
-                                                    <li><a href="../../templates/shop.html">Jackets</a></li>
-                                                    <li><a href="../../templates/shop.html">Shirts</a></li>
-                                                    <li><a href="../../templates/shop.html">Sweaters & Cardigans</a></li>
-                                                    <li><a href="../../templates/shop.html">T-shirts</a></li>
+                                                    <li><a href="shop.html">Roses</a></li>
+                                                    <li><a href="shop.html">Lilies</a></li>
+                                                    <li><a href="shop.html">Mixed</a></li>
+                                                    <li><a href="shop.html">Scented Pots</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <!-- end col-3 -->
                                         <div class="col-menu col-md-3">
-                                            <h6 class="title">Bottom</h6>
+                                            <h6 class="title">Show Pieces</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
-                                                    <li><a href="../../templates/shop.html">Swimwear</a></li>
-                                                    <li><a href="../../templates/shop.html">Skirts</a></li>
-                                                    <li><a href="../../templates/shop.html">Jeans</a></li>
-                                                    <li><a href="../../templates/shop.html">Trousers</a></li>
+                                                    <li><a href="shop.html">Love</a></li>
+                                                    <li><a href="shop.html">Birthday</a></li>
+                                                    <li><a href="shop.html">Success</a></li>
+                                                    <li><a href="shop.html">Family</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <!-- end col-3 -->
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Clothing</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="../../templates/shop.html">Top Wear</a></li>
-                                                    <li><a href="../../templates/shop.html">Party wear</a></li>
-                                                    <li><a href="../../templates/shop.html">Bottom Wear</a></li>
-                                                    <li><a href="../../templates/shop.html">Indian Wear</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
                                         <div class="col-menu col-md-3">
                                             <h6 class="title">Accessories</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
+                                                    <li><a href="shop.html">Clothing</a></li>
                                                     <li><a href="shop.html">Bags</a></li>
-                                                    <li><a href="shop.html">Sunglasses</a></li>
+                                                    <li><a href="shop.html">Watches</a></li>
                                                     <li><a href="shop.html">Fragrances</a></li>
-                                                    <li><a href="shop.html">Wallets</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-menu col-md-3">
+                                            <h6 class="title">Personalized</h6>
+                                            <div class="content">
+                                                <ul class="menu-col">
+                                                    <li><a href="shop.html">Cushions</a></li>
+                                                    <li><a href="shop.html">Mugs and Cups</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -173,21 +142,21 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="dropdown active">
-                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
+                        <li class="dropdown">
+                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Profile</a>
                             <ul class="dropdown-menu">
+                                <li><a href="../static/php/index.php">My Account</a></li>
                                 <li><a href="../../templates/cart.html">Cart</a></li>
-                                <li><a href="../../templates/checkout.html">Checkout</a></li>
-                                <li><a href="../../templates/my-account.html">My Account</a></li>
-                                <li><a href="../../templates/wishlist.html">Wishlist</a></li>
-                                <li><a href="../../templates/shop-detail.html">Shop Detail</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="wishlist.html">Wishlist</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="../../templates/service.html">Our Service</a></li>
-                        <li class="nav-item"><a class="nav-link" href="../../templates/contact-us.html">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="service.html">Our Service</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
+
 
                 <!-- Start Atribute Navigation -->
                 <div class="attr-nav">

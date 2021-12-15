@@ -1,4 +1,7 @@
-<!-- Changes done -->
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <!-- Basic -->
@@ -44,51 +47,18 @@
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <div class="text-slid-box">
-                        <div id="offer-box" class="carouselTicker">
-                            <ul class="offer-box">
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Now
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on all Personalized items
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 10%! Shop Now
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 50% - 80% off on all Personalized items
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> 20% off Entire Purchase Promo code: offT20
-                                </li>
-                                <li>
-                                    <i class="fab fa-opencart"></i> Off 50%! Shop Now
-                                </li>
-                            </ul>
-                        </div>
+                        
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="custom-select-box">
-                        <select id="basic" class="selectpicker show-tick form-control" data-placeholder="$ USD">
-						<option>Rs. Rupee</option>
-						<option>$ USD</option>
-						<option>€ EUR</option>
-					</select>
+        
                     </div>
                     <div class="right-phone-box">
-                        <p>Call US :- <a href="#"> +91 7042715235</a></p>
+                        
                     </div>
                     <div class="our-link">
                         <ul>
-                            <li><a href="#">My Account</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -114,56 +84,54 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                        <li class="nav-item active"><a class="nav-link" href="about.html">About Us</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="index.php">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
                         <li class="dropdown megamenu-fw">
                             <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Product</a>
                             <ul class="dropdown-menu megamenu-content" role="menu">
                                 <li>
                                     <div class="row">
                                         <div class="col-menu col-md-3">
-                                            <h6 class="title">Top</h6>
+                                            <h6 class="title">Flowers & Bouquets</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
-                                                    <li><a href="shop.html">Jackets</a></li>
-                                                    <li><a href="shop.html">Shirts</a></li>
-                                                    <li><a href="shop.html">Sweaters & Cardigans</a></li>
-                                                    <li><a href="shop.html">T-shirts</a></li>
+                                                    <li><a href="shop.php">Roses</a></li>
+                                                    <li><a href="shop.php">Lilies</a></li>
+                                                    <li><a href="shop.php">Mixed</a></li>
+                                                    <li><a href="shop.php">Scented Pots</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <!-- end col-3 -->
                                         <div class="col-menu col-md-3">
-                                            <h6 class="title">Bottom</h6>
+                                            <h6 class="title">Show Pieces</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
-                                                    <li><a href="shop.html">Swimwear</a></li>
-                                                    <li><a href="shop.html">Skirts</a></li>
-                                                    <li><a href="shop.html">Jeans</a></li>
-                                                    <li><a href="shop.html">Trousers</a></li>
+                                                    <li><a href="shop.php">Love</a></li>
+                                                    <li><a href="shop.php">Birthday</a></li>
+                                                    <li><a href="shop.php">Success</a></li>
+                                                    <li><a href="shop.php">Family</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                         <!-- end col-3 -->
-                                        <div class="col-menu col-md-3">
-                                            <h6 class="title">Clothing</h6>
-                                            <div class="content">
-                                                <ul class="menu-col">
-                                                    <li><a href="shop.html">Top Wear</a></li>
-                                                    <li><a href="shop.html">Party wear</a></li>
-                                                    <li><a href="shop.html">Bottom Wear</a></li>
-                                                    <li><a href="shop.html">Indian Wear</a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
                                         <div class="col-menu col-md-3">
                                             <h6 class="title">Accessories</h6>
                                             <div class="content">
                                                 <ul class="menu-col">
-                                                    <li><a href="shop.html">Bags</a></li>
-                                                    <li><a href="shop.html">Sunglasses</a></li>
-                                                    <li><a href="shop.html">Fragrances</a></li>
-                                                    <li><a href="shop.html">Wallets</a></li>
+                                                    <li><a href="shop.php">Clothing</a></li>
+                                                    <li><a href="shop.php">Bags</a></li>
+                                                    <li><a href="shop.php">Watches</a></li>
+                                                    <li><a href="shop.php">Fragrances</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-menu col-md-3">
+                                            <h6 class="title">Personalized</h6>
+                                            <div class="content">
+                                                <ul class="menu-col">
+                                                    <li><a href="shop.php">Cushions</a></li>
+                                                    <li><a href="shop.php">Mugs and Cups</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -173,18 +141,26 @@
                                 </li>
                             </ul>
                         </li>
+                        <?php
+                            if(isset($_SESSION["id"])) {
+                        ?>
                         <li class="dropdown">
-                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">SHOP</a>
+                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Hi, <?php echo $_SESSION["name"]; ?></a>
                             <ul class="dropdown-menu">
-                                <li><a href="cart.html">Cart</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                                <li><a href="my-account.html">My Account</a></li>
-                                <li><a href="wishlist.html">Wishlist</a></li>
-                                <li><a href="shop-detail.html">Shop Detail</a></li>
+                                <li><a href="my-account.php">My Account</a></li>
+                                <li><a href="cart.php">Cart</a></li>
+                                <li><a href="checkout.php">Checkout</a></li>
+                                <li><a href="wishlist.php">Wishlist</a></li>
+                                <li><a href="logout.php">Logout</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="service.html">Our Service</a></li>
-                        <li class="nav-item"><a class="nav-link" href="contact-us.html">Contact Us</a></li>
+                        <?php
+                            }else { ?> <li class="nav-item"><a class="nav-link" href="../static/php/index.php">Login</a></li>;
+                        <?php  
+                            }  
+                        ?>
+                        <li class="nav-item"><a class="nav-link" href="service.php">Our Service</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contact-us.php">Contact Us</a></li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -251,10 +227,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2>ABOUT US</h2>
+                    <h2>Wishlist</h2>
                     <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item active">ABOUT US</li>
+                        <li class="breadcrumb-item"><a href="#">Shop</a></li>
+                        <li class="breadcrumb-item active">Wishlist</li>
                     </ul>
                 </div>
             </div>
@@ -262,116 +238,104 @@
     </div>
     <!-- End All Title Box -->
 
-    <!-- Start About Page  -->
-    <div class="about-box-main">
+    <!-- Start Wishlist  -->
+    <div class="wishlist-box-main">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <h2 class="noo-sh-title">We are <span>Prezzie</span></h2>
-                    <p> You are engulfed in relationships the moment you step into this planet. The earliest and most intimate relationship you have is with your mother, who is the ideal of unselfish, patient, and loving love. 
-                        Then there is your father, who has always been and will always be an idol to us. It's as though he anticipates your every want before it ever enters your head.
-                         Siblings have the sweetest relationship. They have always been and will continue to be your first and best friend. You have countless childhood memories associated with them.
-                         This is the beauty of relations. You can have a walk down the memory lane countless times and each time you will return wrapped in love, affection and a sweet smile (sometimes there are giggles as well!). </p>
-                         <p>Why not share the love which is so close to your heart to your near and dear ones?Are you pondering how to go about doing so? At Prezzie, you may enjoy the joys of online presents, such as birthday gifts,
-                          anniversary gifts, and gift baskets. You will be able to discover a present for any relationship, regardless of the occasion, because we care for our costumers as much as their loved ones.</p>
-                </div>
-                <div class="col-lg-6">
-                    <div class="banner-frame"> <img class="img-thumbnail img-fluid" src="../static/images/about-img.jpg" alt="" />
+                <div class="col-lg-12">
+                    <div class="table-main table-responsive">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Images</th>
+                                    <th>Product Name</th>
+                                    <th>Unit Price </th>
+                                    <th>Stock</th>
+                                    <th>Add Item</th>
+                                    <th>Remove</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="thumbnail-img">
+                                        <a href="#">
+									<img class="img-fluid" src="../static/images/wallet-img.jpg" alt="" />
+								</a>
+                                    </td>
+                                    <td class="name-pr">
+                                        <a href="#">
+									Men's Wallet
+								</a>
+                                    </td>
+                                    <td class="price-pr">
+                                        <p>Rs. 500</p>
+                                    </td>
+                                    <td class="quantity-box">In Stock</td>
+                                    <td class="add-pr">
+                                        <a class="btn hvr-hover" href="#">Add to Cart</a>
+                                    </td>
+                                    <td class="remove-pr">
+                                        <a href="#">
+									<i class="fas fa-times"></i>
+								</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="thumbnail-img">
+                                        <a href="#">
+									<img class="img-fluid" src="../static/images/instagram-img-08.jpg" alt="" />
+								</a>
+                                    </td>
+                                    <td class="name-pr">
+                                        <a href="#">
+									Wrist Watch
+								</a>
+                                    </td>
+                                    <td class="price-pr">
+                                        <p>Rs. 9999</p>
+                                    </td>
+                                    <td class="quantity-box">In Stock</td>
+                                    <td class="add-pr">
+                                        <a class="btn hvr-hover" href="#">Add to Cart</a>
+                                    </td>
+                                    <td class="remove-pr">
+                                        <a href="#">
+									<i class="fas fa-times"></i>
+								</a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="thumbnail-img">
+                                        <a href="#">
+									<img class="img-fluid" src="../static/images/img-pro-03.jpg" alt="" />
+								</a>
+                                    </td>
+                                    <td class="name-pr">
+                                        <a href="#">
+									Ladies Purse
+								</a>
+                                    </td>
+                                    <td class="price-pr">
+                                        <p>Rs. 1500.0</p>
+                                    </td>
+                                    <td class="quantity-box">In Stock</td>
+                                    <td class="add-pr">
+                                        <a class="btn hvr-hover" href="#">Add to Cart</a>
+                                    </td>
+                                    <td class="remove-pr">
+                                        <a href="#">
+									<i class="fas fa-times"></i>
+								</a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                </div>
-            </div>
-            <div class="row my-5">
-                <div class="col-sm-6 col-lg-4">
-                    <div class="service-block-inner">
-                        <h3>We are Trusted</h3>
-                        <p>We have been meeting requirements of our customers, since 25 years, by giving
-                             special attention to their needs and providing personalized gift items... </p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="service-block-inner">
-                        <h3>We are Professional</h3>
-                        <p> Our mission is to provide gift giving as convenient as possible, and our approach lies in proceeding
-                             with full dedication and perfection, no matter how difficult the deadline is!</p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="service-block-inner">
-                        <h3>We are Expert</h3>
-                        <p>We deliver gifts around the corner or from around the world!
-                             So come & browse our site & order that perfect gift today! </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row my-4">
-                <div class="col-12">
-                    <h2 class="noo-sh-title">Meet Our Team</h2>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="hover-team">
-                        <div class="our-team"> <img src="../static/images/kashika_akhouri.jpg" alt="" />
-                            <div class="team-content">
-                                <h3 class="title">Kashika Akhouri</h3> <span class="post">Web Developer</span> </div>
-                            <ul class="social">
-                                <li>
-                                    <a href="#" class="fab fa-facebook"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-twitter"></a>
-                                </li>
-                            </ul>
-                            <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
-                        </div>
-                        <div class="team-description">
-                            <p>Dedicated, hardworking, passionate about technology</p>
-                        </div>
-                        <hr class="my-0"> </div>
-                </div>
-                <div class="col-sm-6 col-lg-4">
-                    <div class="hover-team">
-                        <div class="our-team"> <img src="../static/images/samya_jain.jpg" alt="" />
-                            <div class="team-content">
-                                <h3 class="title">Samya Jain</h3> <span class="post">Web Developer</span> </div>
-                            <ul class="social">
-                                <li>
-                                    <a href="#" class="fab fa-facebook"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-twitter"></a>
-                                </li>
-                            </ul>
-                            <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
-                        </div>
-                        <div class="team-description">
-                            <p>Passionate and dedicated in whatever she does! Curious about technology </p>
-                        </div>
-                        <hr class="my-0"> </div>
-                </div>
-               
-                <div class="col-sm-6 col-lg-4">
-                    <div class="hover-team">
-                        <div class="our-team"> <img src="../static/images/tanya_chhikara.jpg" alt="" />
-                            <div class="team-content">
-                                <h3 class="title">Tanya Chhikara</h3> <span class="post">Web Developer</span> </div>
-                            <ul class="social">
-                                <li>
-                                    <a href="#" class="fab fa-facebook"></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="fab fa-twitter"></a>
-                                </li>
-                            </ul>
-                            <div class="icon"> <i class="fa fa-plus" aria-hidden="true"></i> </div>
-                        </div>
-                        <div class="team-description">
-                            <p>Currently working on web development! </p>
-                        </div>
-                        <hr class="my-0"> </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- End About Page -->
+    <!-- End Wishlist -->
 
     <!-- Start Instagram Feed  -->
     <div class="instagram-box">
@@ -462,8 +426,8 @@
     <!-- End Instagram Feed  -->
 
 
-    <!-- Start Footer  -->
-    <footer>
+<!-- Start Footer  -->
+<footer>
         <div class="footer-main">
             <div class="container">
                 <div class="row">
@@ -471,8 +435,8 @@
                         <div class="footer-widget">
                             <h4>About Prezzie</h4>
                             <p>For over 25 years, we are helping customers to celebrate their special moments by delivering fresh flowers and fabulous gifts.<br>Our Vision : To be the most trusted gifting brand to celebrate the joy of giving
-                            <br> Our mission : Wow every customer every time, through premium products, services, value-for-money driven by innovation, technology & people-first approach
-                            </p>
+                                <br> Our mission : Wow every customer every time, through premium products, services, value-for-money driven by innovation, technology & people-first approach
+                                </p>
                             <ul>
                                 <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
@@ -485,11 +449,9 @@
                         <div class="footer-link">
                             <h4>Information</h4>
                             <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Customer Service</a></li>
-                                <li><a href="#">Terms &amp; Conditions</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Delivery Information</a></li>
+                                <li><a href="about.php">About Us</a></li>
+                                <li><a href="service.php">Customer Service</a></li>
+                                <li><a href="contact-us.php">Connect With Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -512,31 +474,25 @@
     </footer>
     <!-- End Footer  -->
 
-    <!-- Start copyright  -->
-    <div class="footer-copyright">
-        <p class="footer-company">All Rights Reserved. &copy; 2021 <a href="#">Prezzie</a> Design By :
-            <a href="https://html.design/">html design</a></p>
-    </div>
-    <!-- End copyright  -->
-
     <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
 
+
     <!-- ALL JS FILES -->
-    <script src="../static/js/jquery-3.2.1.min.js"></script>
-    <script src="../static/js/popper.min.js"></script>
-    <script src="../static/js/bootstrap.min.js"></script>
+    <script src="../static/images/jquery-3.2.1.min.js"></script>
+    <script src="../static/images/popper.min.js"></script>
+    <script src="../static/images/bootstrap.min.js"></script>
     <!-- ALL PLUGINS -->
-    <script src="../static/js/jquery.superslides.min.js"></script>
-    <script src="../static/js/bootstrap-select.js"></script>
-    <script src="../static/js/inewsticker.js"></script>
-    <script src="../static/js/bootsnav.js."></script>
-    <script src="../static/js/images-loded.min.js"></script>
-    <script src="../static/js/isotope.min.js"></script>
-    <script src="../static/js/owl.carousel.min.js"></script>
-    <script src="../static/js/baguetteBox.min.js"></script>
-    <script src="../static/js/form-validator.min.js"></script>
-    <script src="../static/js/contact-form-script.js"></script>
-    <script src="../static/js/custom.js"></script>
+    <script src="../static/images/jquery.superslides.min.js"></script>
+    <script src="../static/images/bootstrap-select.js"></script>
+    <script src="../static/images/inewsticker.js"></script>
+    <script src="../static/images/bootsnav.js."></script>
+    <script src="../static/images/images-loded.min.js"></script>
+    <script src="../static/images/isotope.min.js"></script>
+    <script src="../static/images/owl.carousel.min.js"></script>
+    <script src="../static/images/baguetteBox.min.js"></script>
+    <script src="../static/images/form-validator.min.js"></script>
+    <script src="../static/images/contact-form-script.js"></script>
+    <script src="../static/images/custom.js"></script>
 </body>
 
 </html>
