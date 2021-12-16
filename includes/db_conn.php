@@ -4,7 +4,7 @@ $sname= "localhost";
 $unmae= "root";
 $password = "";
 
-$db_name = "gift_dbms";
+$db_name = "login_register_se";
 
 $conn = mysqli_connect($sname, $unmae, $password, $db_name);
 

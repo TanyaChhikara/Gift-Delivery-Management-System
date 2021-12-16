@@ -263,35 +263,25 @@ session_start();
                         <h2>GET IN TOUCH</h2>
                         <form id="contactForm">
                             <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" id="subject" name="name" placeholder="Subject" required data-error="Please enter your Subject">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <textarea class="form-control" id="message" placeholder="Your Message" rows="4" data-error="Write your message" required></textarea>
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                    <div class="submit-button text-center">
-                                        <button class="btn hvr-hover" id="submit" type="submit">Send Message</button>
-                                        <div id="msgSubmit" class="h3 text-center hidden"></div>
-                                        <div class="clearfix"></div>
-                                    </div>
-                                </div>
+                            <!-- <div class="col-lg-6">
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLScRn07VzS0Ukhtk8KJiPR_wGErjZJMk3yhe7X9uwvF1JvMHHQ/viewform?usp=sf_link" method = "POST">
+        <div class="form-element">
+          <input type="text" name="entry.2005620554" class="contact-input show-on-scroll inline-photo" required placeholder="Name" />
+        </div>
+        <div class="form-element">
+          <input type="email" name = "entry.1045781291" class="contact-input show-on-scroll inline-photo" required placeholder="Email Address" />
+        </div>
+        <div class="form-element">
+          <input type="text" name="entry.1348950841" class="contact-input show-on-scroll inline-photo" id="" name="" rows="5" cols="50" required placeholder="Subject" />
+        </div>
+        <div class="form-element">
+          <input type="text" name="entry.839337160" class="contact-input show-on-scroll inline-photo" id="" name="" rows="5" cols="50" required placeholder="Enter your message" />
+        </div>
+        <button type ="Submit" style="width: 80%; background-color: #28818d; color: white;" class="btn contact-button show-on-scroll inline-photo">Send Message</button>
+      </form>
+    </div> -->
+    <script src='https://forms.pabbly.com/embed/Klc6-475890?w=350'></script>
+ 
                             </div>
                         </form>
                     </div>
@@ -438,7 +428,17 @@ session_start();
     <!-- End Footer  -->
 
     <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
-
+    <script type="text/javascript">
+    (function(d, m){
+        var kommunicateSettings = 
+            {"appId":"29835367546c5e640804deabe73df5426","popupWidget":true,"automaticChatOpenOnNavigation":true};
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+        window.kommunicate = m; m._globals = kommunicateSettings;
+    })(document, window.kommunicate || {});
+/* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+</script>
     <!-- ALL JS FILES -->
     <script src="../static/js/jquery-3.2.1.min.js"></script>
     <script src="../static/js/popper.min.js"></script>
